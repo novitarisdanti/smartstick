@@ -1,10 +1,11 @@
+
 *{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
 }
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://live.staticflickr.com/2748/4016523113_4a4178632e_b.jpg);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.11),rgba(0, 0, 0, 0.103)), url(https://live.staticflickr.com/2748/4016523113_4a4178632e_b.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -19,16 +20,19 @@ ul li{
 }
 ul li a{
 	text-decoration: none;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	padding: 5px 20px;
-	border: 1px solid;
+	border: 1px solid #fff;
 	transition: 0.6s;
 	margin: 10px;
 
 }
 ul li a:hover{
 	background-color: #fff;
-	color: #000;
+	color: rgb(248, 248, 248);
+}
+.navbar-brand{
+	color: #fff;
 }
 .logo img{
 	float: left;
@@ -55,6 +59,7 @@ ul li a:hover{
 	top:45%;
 	left:10%;
 	font-size: large;
+	color: #000;
 }
 .button{
 	position: absolute;
@@ -91,4 +96,7 @@ ul li a:hover{
 	color: rgb(0, 0, 0);
 	font-size: 25px;
 	text-align: center;
+}
+.container px-4 px-lg-5 {
+	color: #fff;
 }
